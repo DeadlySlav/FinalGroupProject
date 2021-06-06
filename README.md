@@ -4,7 +4,7 @@
 #### 2) Able to skip/Change song/s 
 #### 3) [Optional  - additional goal] Able to view different Music + genres 
 
-
+## WordPress installation:
 
 ## Plugin’s installation:
 
