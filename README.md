@@ -20,3 +20,13 @@ Step 4) Congrats now you have the Music player and to create a playlist click on
 #### Step 3: Under source file select Local MP3 then click “Add or Upload File” and select your desired MP3
 #### Step 4: Add an optional track image by clicking “Add image”
 #### Step 5: to Add another track scroll down until you see “Add Another Track” and repeat steps 3-4 and you are done! 
+
+
+## Making a new page and adding your playlist 
+#### Step 1: select the “Pages” tab 
+#### Step 2: click “Add New”
+#### Step 3: Name the page at the top 
+#### Step 4: Click the plus sign in the middle below the header and type “Classic” into the search bar and select it.
+#### Step 5: Once The classic block is added click inside the block and click on the MP3 logo on the right side of the block
+#### Step 6: Select the existing playlist you made earlier and then click “Insert Shortcode” and done!
+#### Step 7: Click the big blue button that says “Publish”
