@@ -1,1 +1,21 @@
+1. Log into/Create uyour aws account and log into the console
 
+2. Search for EC2 or select it from Compute services
+
+3. Select launch instance from EC2 dashboard or go to isntaces tab on left hand side and select instances, from there click on Launch Instance
+
+4. In step 1 select AWS marketplace and search for bitnami for quick results or search down list until you find WordPress Certified by Bitnami and select it
+
+5. Select t2 micro (free tier) then select Configure Instance Details at bottom of page
+
+6. On step 3 leave everything as default
+
+7. For step 4 use the maximum amount of storage, which for this tier is 30 GB
+
+8. For step 5 Add tag with Key as Name and Value as the name you wish the EC2 to be. For example ours has our names and what project it is.
+
+9. For step 6 create a new security group and don't change the ports. Only add new ones if you plan on using different ports to access the site
+
+10. Select launch and a menu will appear mentioning a key pair. Select a previously made key pair or create a new one and save the key pair. You will need it to log into the instance via putty later.
+
+11. Wait for your EC2 to finish and itializing then process to developing your site.
