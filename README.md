@@ -25,7 +25,8 @@
 
 #### 10. Select launch and a menu will appear mentioning a key pair. Select a previously made key pair or create a new one and save the key pair. You will need it to log into the instance via putty later.
 
-11. Wait for your EC2 to finish and itializing then process to developing your site.
+#### 11. Wait for your EC2 to finish and itializing then process to developing your site.
+
 ## Plugin’s installation:
 
 #### Step 1) Go to your site and click on the URL and enter /admin at the very end of your site’s URL and enter “user” for the  username and enter the password.
