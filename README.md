@@ -65,3 +65,27 @@ Step 4) Congrats now you have the Music player and to create a playlist click on
 #### Step 10: Select Next
 #### Step 11: Create an alarm name and description if you want.
 #### Step 12: Select next and then confirm your alarm. When you have doubled checked it create the alarm.
+
+## Setting Up SNS (Simple notification Service)
+#### Step 1: Log into AWS console
+#### Step 2: Search for SNS Service
+#### Step 3: Select Topics
+#### Step 4: Create Topic
+#### Step 5: Slect Standard, then name it something easy to remember and make the name and display name the same
+#### Step 6: Select create topic
+#### Step 7: Select on newly created topic
+#### Step 8: Create subscription and use a email that you have access too and is free to recieve notifcations
+#### Step 9: Log into email and confirm subscription
+
+## Setting Up Chatbot
+#### Step 1: Log into AWS console
+#### Step 2: Search for Chatbot
+#### Step 3: Select Configured clients
+#### Step 4: Create new client
+#### Step 5: Slect Slack
+#### Step 6: Allow access to slack ( we created a slack workspace entirely for the aws notifications)
+#### Step 7: Create a public channel and name it something easy and related to the cloudwatch notifications
+#### Step 8: Create a IAM role allowing it access to notifications
+#### Step 9: Select SNS topics
+#### Step 10: Select the region you are in, ours is oregon, and then choose the topic you created in SNS
+#### Step 11: Select Configure
