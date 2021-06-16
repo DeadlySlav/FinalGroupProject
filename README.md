@@ -47,7 +47,21 @@ Step 4) Congrats now you have the Music player and to create a playlist click on
 #### Step 1: select the “Pages” tab 
 #### Step 2: click “Add New”
 #### Step 3: Name the page at the top 
-#### Step 4: Click the plus sign in the middle below the header and type “Classic” into the search bar and select it.
+#### Step 4: Click the plus sign in the middle below the header and type “Classic” into the search bar and select it
 #### Step 5: Once The classic block is added click inside the block and click on the MP3 logo on the right side of the block
 #### Step 6: Select the existing playlist you made earlier and then click “Insert Shortcode” and done!
 #### Step 7: Click the big blue button that says “Publish”
+
+## Setting Up CloudWatch
+#### Step 1: Log into AWS console
+#### Step 2: Search for Cloudwatch Service
+#### Step 3: Select Alarms (Below dashboard on left hand side of screen)
+#### Step 4: Click on create alarm
+#### Step 5: Slect metric, then select Ec2, and then Per-Instance Metrics
+#### Step 6: Select the metric name CPUUtilization for the specific instance you want to use
+#### Step 7: Click on select metric
+#### Step 8: change statistics to sum (this is important otherwise the alarm won't go off) and change the period to 1 minute, everyhting eles keep the same and when you get to than change it to the threshold you want it to be. We used 10% as our example
+#### Step 9: On the next page keep everthing the same and select an existing SNS topic and use the SNS you created ( we will have a step by step guide to create one if you haven't)
+#### Step 10: Select Next
+#### Step 11: Create an alarm name and description if you want.
+#### Step 12: Select next and then confirm your alarm. When you have doubled checked it create the alarm.
