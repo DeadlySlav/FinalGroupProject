@@ -89,3 +89,25 @@ Step 4) Congrats now you have the Music player and to create a playlist click on
 #### Step 9: Select SNS topics
 #### Step 10: Select the region you are in, ours is oregon, and then choose the topic you created in SNS
 #### Step 11: Select Configure
+
+## Citations:
+CNA 421 
+Final Group Project - WordPress - Music Player
+Michael Horton
+Eric Yevenko
+Dylan McCormack
+
+Set up EC2 Wordpress by Bitnami. Use max storage of 30. Make sure to add a tag with key as name and put identifiers to know which EC2 is yours.
+
+Had issues securing it - had to use a website to learn to create 2 records instead of one. Fixed DNS error. https://www.name.com/support/articles/205188538-Pointing-your-domain-to-hosting-with-A-records
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html#create-iam-roles-for-cloudwatch-agent-roles
+Guide from AWS with helping set up iam role
+
+https://itectec.com/ubuntu/ubuntu-yum-install-fails-on-ubuntu-ec2-instance/
+Helped with yum error
+
+https://wpmudev.com/blog/remove-proudly-powered-by-wordpress-footer-link/
+Remove wording at bottom of page
+https://www.youtube.com/watch?v=NEmIjXLhvlU
+How to set up SNS, CloudWatch, create alarms, and set it up with slack notifications with stress test installation and execution.
